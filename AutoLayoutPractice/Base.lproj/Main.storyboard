@@ -33,6 +33,9 @@
                                 <rect key="frame" x="169" y="348" width="76.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="색상 변경"/>
+                                <connections>
+                                    <action selector="tapChangeColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sY0-kg-xqI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,6 +52,9 @@
                             <constraint firstItem="tch-bV-DAv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="y2S-tT-HFg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="colorView" destination="FGR-UQ-dek" id="8t1-oG-V3p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
